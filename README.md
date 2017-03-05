@@ -53,6 +53,8 @@ To augment data, a combination of the above transformations is used. Here is an 
 I apply random image transforms to every odd numbered image in training dataset with the idea being that consecutive images have similar resolution. Further, I augment existing dataset to make it balanced by requiring 3000 examples per class in training set. Here is the final class distributions after augmentation :
 ![](sample_images/augment.png)
 
+--
+
 ### CNN architecture
 The model I have chosen is inspired by VGGnet architecture. Consider the following arrangement : 
 
